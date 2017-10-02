@@ -1,6 +1,6 @@
 <template lang="pug">
 #app
-  img(src='./assets/logo.png')
+  img(src='https://manokero.github.io/VueExample/assets/logo.png')
   h1 PlatziMusic
   select(v-model="selectedCountry")
     option(v-for="country in contries" v-bind:value="country.value") {{country.name}}
