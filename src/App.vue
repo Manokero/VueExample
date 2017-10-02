@@ -1,7 +1,7 @@
 <template lang="pug">
 #app
   img(src='https://manokero.github.io/VueExample/assets/logo.png')
-  h1 PlatziMusic
+  h1 Top Music
   select(v-model="selectedCountry")
     option(v-for="country in contries" v-bind:value="country.value") {{country.name}}
   spinner(v-show="loading")
