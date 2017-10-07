@@ -1,6 +1,6 @@
 # Top music
 
-> app de musica
+> Music App
 
 ## Build Setup
 
